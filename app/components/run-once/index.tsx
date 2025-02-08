@@ -36,6 +36,11 @@ const RunOnce: FC<IRunOnceProps> = ({
     onInputsChange(newInputs)
   }
 
+
+             console.log('visionConfig')
+            console.log(visionConfig)
+
+  
   return (
     <div className="">
       <section>
@@ -86,8 +91,7 @@ const RunOnce: FC<IRunOnceProps> = ({
             </div>
           ))}
           {
-            console.log('visionConfig')
-            console.log(visionConfig)
+
             
             visionConfig?.enabled && (
               <div className="w-full mt-4">
