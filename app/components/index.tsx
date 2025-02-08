@@ -349,6 +349,14 @@ const TextGeneration = () => {
         const { user_input_form, file_upload, system_parameters }: any = await fetchAppParams()
         const prompt_variables = userInputsFormToPromptVariables(user_input_form)
 
+        console.log('user_input_form')
+        console.log(user_input_form)
+        console.log('file_upload')
+        console.log(file_upload)
+        console.log('systme_parameters')
+        console.log(system_parameters)
+        
+
         setPromptConfig({
           prompt_template: '',
           prompt_variables,
