@@ -376,6 +376,11 @@ const TextGeneration = () => {
         }
       }
     })()
+
+    console.log('after setVisionConfig')
+    console.log(visionConfig)
+
+    
   }, [])
 
   useEffect(() => {
