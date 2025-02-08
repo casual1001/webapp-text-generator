@@ -39,7 +39,7 @@ const RunOnce: FC<IRunOnceProps> = ({
 
              console.log('visionConfig')
             console.log(visionConfig)
-  visionConfig.enabled = true
+  //visionConfig.enabled = true
   
   return (
     <div className="">
