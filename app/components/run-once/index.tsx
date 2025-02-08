@@ -86,6 +86,9 @@ const RunOnce: FC<IRunOnceProps> = ({
             </div>
           ))}
           {
+            console.log('visionConfig')
+            console.log(visionConfig)
+            
             visionConfig?.enabled && (
               <div className="w-full mt-4">
                 <div className="text-gray-900 text-sm font-medium">{t('common.imageUploader.imageUpload')}</div>
